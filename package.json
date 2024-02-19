@@ -1,0 +1,16 @@
+{
+    "name": "pnpm-workspace-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "demo": "pnpm --filter @demo/demo",
+        "generate:tokens": "pnpm --filter @demo/design generate:tokens"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "^5.2.2"
+    }
+}
